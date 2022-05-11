@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{37E07F9B-659B-409B-B13F-7F51096C24A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{4006A869-7460-4262-AEAA-2755628ED4BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{DFC5DAE1-8E4F-4213-8813-036F70CD5587}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{ABD2F0CF-ADD4-4CA8-87FD-F286BFE61BF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressService.Api", "AddressService.Api\AddressService.Api.csproj", "{D53C377A-1D6E-4693-B50D-D67E34CC686B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressService.Domain", "AddressService.Domain\AddressService.Domain.csproj", "{6BEF7227-A3B6-4294-BB72-A86CAA1E3201}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressService.Shared", "AddressService.Shared\AddressService.Shared.csproj", "{CDC37F81-CBA3-4146-93FA-AD1C9E493D57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressService.Tests", "AddressService.Tests\AddressService.Tests.csproj", "{346A230F-856F-45DF-AC67-B7D052A42F9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D53C377A-1D6E-4693-B50D-D67E34CC686B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D53C377A-1D6E-4693-B50D-D67E34CC686B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D53C377A-1D6E-4693-B50D-D67E34CC686B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D53C377A-1D6E-4693-B50D-D67E34CC686B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEF7227-A3B6-4294-BB72-A86CAA1E3201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEF7227-A3B6-4294-BB72-A86CAA1E3201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEF7227-A3B6-4294-BB72-A86CAA1E3201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEF7227-A3B6-4294-BB72-A86CAA1E3201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC37F81-CBA3-4146-93FA-AD1C9E493D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC37F81-CBA3-4146-93FA-AD1C9E493D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC37F81-CBA3-4146-93FA-AD1C9E493D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC37F81-CBA3-4146-93FA-AD1C9E493D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{346A230F-856F-45DF-AC67-B7D052A42F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346A230F-856F-45DF-AC67-B7D052A42F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346A230F-856F-45DF-AC67-B7D052A42F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346A230F-856F-45DF-AC67-B7D052A42F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D53C377A-1D6E-4693-B50D-D67E34CC686B} = {37E07F9B-659B-409B-B13F-7F51096C24A7}
+		{6BEF7227-A3B6-4294-BB72-A86CAA1E3201} = {4006A869-7460-4262-AEAA-2755628ED4BD}
+		{CDC37F81-CBA3-4146-93FA-AD1C9E493D57} = {DFC5DAE1-8E4F-4213-8813-036F70CD5587}
+		{346A230F-856F-45DF-AC67-B7D052A42F9F} = {ABD2F0CF-ADD4-4CA8-87FD-F286BFE61BF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBE9086B-C80A-4393-A98A-DD7D356D868D}
+	EndGlobalSection
+EndGlobal
